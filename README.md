@@ -1,3 +1,7 @@
+
+![Screenshot_2](https://github.com/safaanilatasoy/birtday-reminder-react/assets/61758061/cb08d5fe-e958-4152-9fee-55666fd93b8e)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
