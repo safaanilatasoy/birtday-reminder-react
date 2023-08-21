@@ -5,12 +5,13 @@ import './App.css';
 
 function App() {
   const [people, setPeople] = useState(data);
+  
   return (
     <main>
       <section className="container">
-        <h3>0 birthdays today</h3>
-        <List />
-        <button onClick={() => console.log('you clicked me')}>Clear</button>
+        <h3>{people.length} People Here</h3>
+        <List people={people}/>
+        <button onClick={() =>setPeople([])}>Clear</button>
       </section>
     </main>
   );
